@@ -1,0 +1,22 @@
+  <div class="cards">
+        <?php foreach($products as $product):?>
+            <div class="card">
+                <div class="card__left">
+                    <p><?= $product['id'];?></p>
+                    <img class="img" src="images/noImage.jpg">
+                </div>
+                <div class="card__right">
+                    <p class="card-text"><?= $product['name'];?></p>
+                </div>
+            </div>
+        <?php endforeach; ?> 
+    </div>
+
+UPDATE `products` SET `id` = '813' WHERE `products`.`id` = 803; 
+
+UPDATE categories
+SET id = id + 10
+WHERE category_name = 'имя_категории';
+
+
+UPDATE `products` SET id = id + 10 WHERE category_id = 10

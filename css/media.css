@@ -1,0 +1,584 @@
+
+
+@media (max-width: 1309px) { 
+    .cards {
+        /* justify-content: center; */
+    }
+    .card {
+        /* max-width: 320px; */
+        /* min-width: 290px; */
+    }
+}
+
+@media (max-width: 800px) {
+    .footer_inner {
+        display: block;
+    }
+    .nav-links {
+        display: flex;
+    }
+}
+
+@media (max-width: 690px) { 
+    .home-menu {
+        gap: 20px 15px;
+    }
+    .blockView.card {
+        width: 90%;
+        height: 190px;
+    }
+    .blockView.card .img {
+        max-height: 100%;
+        height: 140px;
+    }
+    .blockView.card .button:disabled {
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 13px;
+    }
+    .button:disabled {
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 34px;
+        margin-bottom: 5px;
+    }
+
+    
+
+    .home-menu.test {
+        /* gap: 26px 15px; */
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 260px;
+    }
+
+    .test .home-menu-card {
+        
+        width: 280px;
+        height: 195px;
+    }
+}
+
+
+ @media screen and (max-width: 645px) {
+    .home-menu-card {
+        width: 260px;
+    }
+    .home-menu-name {
+        font-size: 18px;
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 235px;
+    }
+
+    .test .home-menu-card {
+        width: 260px;
+        height: 185px;
+    }
+} 
+
+
+@media (max-width: 575px) { 
+    .blockView.card {
+        width: 90%;
+        height: 185px;
+        padding: 15px;
+    }
+    .blockView.card .img {
+        max-height: 100%;
+        height: 130px;
+    }
+    .blockView.card h3 {
+        font-size: 16px;
+    }    
+    .blockView.card .button {
+        font-size: 13px;
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 225px;
+    }
+
+    .test .home-menu-card {
+        width: 250px;
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .home-menu-card {
+        width: 220px;
+    }
+    .home-menu-name {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+
+    .home-menu-card.cat {
+        height: 175px;
+    }
+    
+    .home-menu-name.cat {
+        margin-top: 8px;
+        line-height: 1.2;
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 200px;
+    }
+
+    .test .home-menu-card {
+        width: 220px;
+        height: 165px;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    form {
+        max-width: 420px;
+        padding: 20px;
+        margin-bottom: 30px;
+      }
+
+    .home-menu.test .home-menu-img {
+        width: 185px;
+    }
+
+    .test .home-menu-card {
+        width: 205px;
+        height: 147px;
+    }
+
+    .test .home-menu-name {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 10px;
+        line-height: 110%;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .home-menu-card {
+        width: 180px;
+        height: auto;
+    }
+    .home-menu-img {
+        max-width: 130px;
+    }
+    .alert {
+        width: 90%;
+    }
+
+    form {
+        max-width: 390px;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    .blockView.card {
+        width: 98%;
+        height: 165px;
+        padding: 12px;
+    }
+    .blockView.card .button {
+        font-size: 12px;
+    }
+    .blockView.card .button:disabled {
+        font-size: 11px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        height: 34px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .blockView.card .img {
+        height: 120px;
+    }
+    .blockView.card p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .blockView.card .button {
+        padding: 0 16px;
+    }
+
+    .test .home-menu-name {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .test .home-menu-card {
+        width: 195px;
+        height: 110px;
+    }
+
+    .home-menu.test {
+        gap: 50px 10px;
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 175px;
+    }
+
+
+}
+
+
+@media (max-width: 440px) {
+
+    .button {
+        font-size: 12px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        height: 34px;
+    }
+    
+    .blockView.card {
+      width: 99%;
+      height: auto;
+      padding: 10px;
+      padding-left: 6px;
+      padding-top: 12px;
+    }
+   
+    .blockView.card h3 {
+        font-size: 15px;
+    }
+    .blockView.card p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .blockView.card .button {
+        font-size: 11px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        height: 34px;
+    }
+    .blockView.card .button:disabled {
+        font-size: 10px;
+        line-height: 33px;
+        letter-spacing: 0.4px;
+        height: 34px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    
+    h2 {
+        font-size: 30px;
+    }
+
+
+    .test .home-menu-name {
+        font-size: 17px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+
+    .home-menu.test {
+        gap: 50px 10px;
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 165px;
+    }
+
+    .test .home-menu-card {
+        width: 185px;
+        height: 105px;
+    }
+
+  }
+
+
+@media screen and (max-width: 420px) {
+
+    form {
+        max-width: 370px;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    form h3 {
+        font-size: 24px;
+    }
+    .cart-title {
+        font-size: 35px;
+    }
+
+    .test .home-menu-name {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+
+    .home-menu.test .home-menu-img {
+        max-width: 135px;
+    }
+
+    .test .home-menu-card {
+        width: 180px;
+        height: 107px;
+    }
+
+    .subcategory {
+        padding: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 405px) {
+
+
+    .home-menu-card {
+        width: 165px;
+        
+    }
+
+    
+
+    .home-menu-name {
+        line-height: 120%;
+    }
+
+   
+
+    .cart_wrapper .container {
+        padding: 30px 10px;
+    }
+
+    .nav-container {
+        padding: 0 10px;
+    }
+
+    .form_wrapper .container {
+        padding: 30px 10px;
+    }
+    form {
+        max-width: 350px;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+
+    .blockView.card {
+        width: 100%;
+        height: auto;
+    }
+    .blockView.card .img {
+        height: 110px;
+    }
+
+
+    /* .home-menu.test {
+        gap: 24px 8px;
+    } */
+
+    .home-menu.test .home-menu-img {
+        max-width: 130px;
+    }
+
+    .test .home-menu-card {
+        width: 170px;
+    }
+}
+
+@media (max-width: 391px) {
+    .blockView.card {
+      height: auto;
+    }
+    .blockView.card .img {
+        height: 98px;
+    }
+    .blockView.card .button {
+        font-size: 10px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        height: 30px;
+        padding: 0 14px;
+    }
+    .blockView.card h3 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .blockView.card p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+
+    .home-menu.test {
+        gap: 55px 10px;
+    }
+
+    .home-menu.test .home-menu-img {
+        max-width: 120px;
+    }
+
+    .test .home-menu-card {
+        width: 160px;
+        height: 95px;
+    }
+    
+  }
+
+@media screen and (max-width: 375px) {
+    .home-menu-card {
+        width: 160px;
+        
+    }
+   form {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .test .home-menu-name {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0px;
+    }
+
+    .home-menu.test {
+        gap: 50px 8px;
+    }
+
+    .home-menu.test .home-menu-img {
+        max-width: 120px;
+    }
+
+    .test .home-menu-card {
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 365px) {
+    .home-menu-card {
+        width: 150px;
+        
+    }
+    .home-menu-name {
+        font-size: 15px;
+    }
+    .home-menu-name {
+        line-height: 120%;
+    }
+
+    .name-wrapper {
+        font-size: 15px;
+    }
+
+    .nav-links a {
+        padding: 0 20px;
+    }
+
+    .card {
+        padding: 12px;
+    }
+}
+
+
+@media (max-width: 351px) {
+    .blockView.card .button {
+        font-size: 10px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        height: 30px;
+        padding: 0 14px;
+    }
+    
+    .blockView.card p {
+        line-height: 1.3;
+    }
+
+    .home-menu.test .home-menu-img {
+        max-width: 115px;
+    }
+
+    .test .home-menu-name {
+        margin-top: 3px;
+    }
+    .test .home-menu-card {
+        width: 140px;
+    }
+  }
+
+
+@media screen and (max-width: 345px) {
+    .home-menu-card {
+        width: 142px;
+        
+    }
+    form {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 341px) {
+    .blockView.card .img {
+        height: 88px;
+    }
+  }
+
+@media screen and (max-width: 335px) {
+
+    .home-menu_wrapper .container {
+        padding: 30px 10px;
+    }
+  
+    .home-menu-card {
+        width: 135px;
+        
+    }
+    .home-menu-name {
+        font-size: 15px;
+    }
+    .home-menu-name {
+        line-height: 120%;
+    }
+    .home-menu-img {
+        max-width: 80px;
+    }
+
+    .cart_wrapper .container {
+        padding: 30px 6px;
+    }
+    .name-wrapper {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .cart {
+        padding: 8px;
+    }
+
+    .card {
+        max-width: 290px;
+    }
+}
+
+@media (max-width: 331px) {
+    .blockView.card h3 {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    .blockView.card p {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    
+    .blockView.card {
+        height: auto;
+        padding: 10px;
+        padding-top: 10px;
+        padding-left: 0;
+    
+    }
+  } 

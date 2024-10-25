@@ -1,0 +1,43 @@
+-- Создаем базу данных
+--CREATE DATABASE IF NOT EXISTS misha-catalog2;
+
+-- Используем созданную базу данных
+--USE misha-catalog2;
+
+-- Создаем таблицу категорий
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+-- Создаем таблицу товаров
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price DECIMAL(10, 2),
+    category_id INT,
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+);
+
+-- Вставляем категории
+INSERT INTO categories (name) VALUES ('Саморезы');
+INSERT INTO categories (name) VALUES ('Дюбели');
+INSERT INTO categories (name) VALUES ('Насадки');
+
+-- Вставляем товары
+INSERT INTO products (name, price, category_id) VALUES ('Саморез кров. по дереву, цинк 4,8* 29 мм (100 гр)', NULL, 1);
+INSERT INTO products (name, price, category_id) VALUES ('Саморез кров. по дереву, цинк 4,8* 35 мм (100 гр)', NULL, 1);
+INSERT INTO products (name, price, category_id) VALUES ('Дюбель "Driva" нейлон 14*22 мм (200 шт) с насадкой', NULL, 2);
+INSERT INTO products (name, price, category_id) VALUES ('Дюбель "Driva" нейлон сверло 14*32 мм (200 шт)
+', NULL, 2);
+INSERT INTO products (name, price, category_id) VALUES ('Насадка "Bohrer" Ph1*50 мм Taiwan (10 шт) в блистере', NULL, 3);
+INSERT INTO products (name, price, category_id) VALUES ('Насадка "Bohrer" Ph2* 25 мм Taiwan (20 шт) в блистере', NULL, 3);
+
+
+
+--inner JOIN
+
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate 
+FROM Orders 
+JOIN Customers 
+ON Orders.CustomerID=Customers.CustomerID;
